@@ -1,14 +1,14 @@
 {
   "name": "angledata-to-pathdata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ADOFAI angleData to pathData.",
-  "main": "main.js",
+  "main": "cli.js",
   "scripts": {
     "test": "node cli.js",
     "build": "npx pkg cli.js"
   },
   "bin": {
-    "atp": "./main.js"
+    "atp": "./cli.js"
   },
   "repository": {
     "type": "git",
