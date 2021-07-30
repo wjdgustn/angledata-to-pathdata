@@ -1,0 +1,26 @@
+{
+  "name": "angledata-to-pathdata",
+  "version": "1.0.0",
+  "description": "ADOFAI angleData to pathData.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node cli.js",
+    "build": "npx pkg cli.js"
+  },
+  "bin": {
+    "atp": "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdgustn/angledata-to-pathdata.git"
+  },
+  "author": "HYONSU",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wjdgustn/angledata-to-pathdata/issues"
+  },
+  "homepage": "https://github.com/wjdgustn/angledata-to-pathdata#readme",
+  "devDependencies": {
+    "pkg": "^5.3.1"
+  }
+}
