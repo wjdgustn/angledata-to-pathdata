@@ -37,8 +37,12 @@ rl.on('line', line => {
     }
 
     let pathData = '';
+    let lastPath = '';
     level.angleData.forEach(a => {
-        const path = utils.angleMap[a];
+        let path;
+        if(a == 360) path = utils.flipPath(lastPath);
+        else path = utils.angleMap[a];
+        lastPath = path;
 
         if(!path) {
             console.log('지원되지 않는 레벨입니다.');
