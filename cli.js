@@ -41,6 +41,7 @@ rl.on('line', line => {
     level.angleData.forEach(a => {
         let path;
         if(a == 360) path = utils.flipPath(lastPath);
+        else if(a < 0) path = utils.angleMap[360 + a];
         else path = utils.angleMap[a];
         lastPath = path;
 

@@ -1,6 +1,6 @@
 {
   "name": "angledata-to-pathdata",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ADOFAI angleData to pathData.",
   "main": "cli.js",
   "scripts": {
